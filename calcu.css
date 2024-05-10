@@ -1,0 +1,36 @@
+.main{
+    width: 425px !important;
+    box-shadow: 5px 5px 5px grey !important;
+}
+input{
+   height: 50px;
+   width: 370px !important;
+    box-shadow: 2px 2px 2px;
+    text-align: right;
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    
+    margin: 5px !important;
+    border: 0px;
+    border-radius: 10px !important;
+    color: white;
+    background-color: black;
+    box-shadow: 1px 1px 1px;
+  
+    
+
+}
+@media (max-width:420px){
+    button{
+
+        height: 50px;
+        width: 70px;
+
+
+
+    }
+}
